@@ -25,7 +25,7 @@ class PetRocketMailerControllerTemplates extends JControllerAdmin
 	 * Proxy for getModel.
 	 * @since	1.6
 	 */
-	public function getModel($name = 'HelloWorld', $prefix = 'HelloWorldModel') 
+	public function getModel($name = 'Template', $prefix = 'PetRocketMailerModel', $config = array()) 
 	{
 		$model = parent::getModel($name, $prefix, array('ignore_request' => true));
 		return $model;

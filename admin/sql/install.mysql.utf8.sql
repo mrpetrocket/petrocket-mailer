@@ -5,6 +5,7 @@ DROP TABLE IF EXISTS `#__petrocketmailer_templates`;
 CREATE TABLE `#__petrocketmailer_templates` (
   `id` int(11) NOT NULL auto_increment,
   `title` varchar(255) NOT NULL,
+  `subject` varchar(255) NOT NULL,
   `template` MEDIUMTEXT NOT NULL,
    PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
