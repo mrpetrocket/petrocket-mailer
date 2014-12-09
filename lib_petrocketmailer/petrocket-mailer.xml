@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="3.3.0">
+    <name>PetRocket Mailer</name>
+    <libraryname>petrocket-mailer</libraryname>
+    <author>mrpetrocket</author>
+    <creationDate>December 2014</creationDate>
+    <authorEmail>mrpetrocket@gmail.com</authorEmail>
+    <version>0.0.1</version>
+    <description>
+    Allows components to send emails using petrocket-mailer templates.
+    </description>
+    <files>
+        <folder>petrocket-mailer</folder>
+    </files>
+</extension>
