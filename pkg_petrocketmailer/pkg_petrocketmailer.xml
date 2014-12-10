@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6">
+    <name>PetRocket Mailer</name>
+    <author>mrpetrocket</author>
+    <creationDate>Dec 2014</creationDate>
+    <packagename>petrocketmailer</packagename>
+    <version>1.0.0</version>
+    <packager>mrpetrocket</packager>
+    <description>Install package for PetRocket Mailer. Free, simple email templating system for Joomla.</description>
+    <files folder="packages">
+        <file type="component" id="com_petrocketmailer">com_petrocketmailer.zip</file>
+        <file type="library" id="petrocket">lib_petrocketmailer.zip</file>
+    </files>
+</extension>
